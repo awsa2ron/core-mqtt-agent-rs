@@ -6,4 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-core-mqtt-sys = "0.1"
+core-mqtt-sys = { path = "core-mqtt-sys" }
+
+[workspace]
+members = ["core-mqtt-sys"]
